@@ -1,0 +1,6 @@
+version: '3'
+services:
+  aquila:
+    image: miksveg/aquila:latest
+    ports:
+      - "3010:3010"
